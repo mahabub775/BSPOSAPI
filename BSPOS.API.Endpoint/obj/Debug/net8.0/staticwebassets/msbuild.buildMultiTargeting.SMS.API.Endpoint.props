@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SMS.API.Endpoint.props" />
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ljmAhzmCXZYCD3oRZoewhqxvL4/tbGVq13mTnplHUkyvd+mXBYZpmOX31YrV5Z/gCV81ww0d5IQ7VH09CULKQ==",
+  "success": true,
+  "projectFilePath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.Core\\SMS.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahbub-PC\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

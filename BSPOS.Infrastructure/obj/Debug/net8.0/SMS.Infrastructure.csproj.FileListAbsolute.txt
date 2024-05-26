@@ -1,0 +1,16 @@
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\bin\Debug\net8.0\SMS.Infrastructure.deps.json
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\bin\Debug\net8.0\SMS.Infrastructure.dll
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\bin\Debug\net8.0\SMS.Infrastructure.pdb
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\bin\Debug\net8.0\SMS.Core.dll
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\bin\Debug\net8.0\SMS.Core.pdb
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.csproj.AssemblyReference.cache
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.AssemblyInfoInputs.cache
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.AssemblyInfo.cs
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.csproj.CoreCompileInputs.cache
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.sourcelink.json
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infr.1FC43FD4.Up2Date
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.dll
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\refint\SMS.Infrastructure.dll
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\SMS.Infrastructure.pdb
+F:\SkillMgt\SMS\SMSAPI\SMS.Infrastructure\obj\Debug\net8.0\ref\SMS.Infrastructure.dll

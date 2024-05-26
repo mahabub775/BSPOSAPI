@@ -1,0 +1,13 @@
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\bin\Debug\net8.0\SMS.Core.deps.json
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\bin\Debug\net8.0\SMS.Core.dll
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\bin\Debug\net8.0\SMS.Core.pdb
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.csproj.AssemblyReference.cache
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.AssemblyInfoInputs.cache
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.AssemblyInfo.cs
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.csproj.CoreCompileInputs.cache
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.sourcelink.json
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.dll
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\refint\SMS.Core.dll
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\SMS.Core.pdb
+F:\SkillMgt\SMS\SMSAPI\SMS.Core\obj\Debug\net8.0\ref\SMS.Core.dll
