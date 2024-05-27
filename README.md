@@ -1,2 +1,3 @@
-# SMSAPI
-API project for Skill Management System.
+API project for POS Management System.
+
+
