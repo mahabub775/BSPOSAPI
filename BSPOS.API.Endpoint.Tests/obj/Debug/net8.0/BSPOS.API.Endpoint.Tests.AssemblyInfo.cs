@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BSPOS.API.Endpoint.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+062f97933a4fc57050c33fb64ae6607e1c12724b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+117ebfc76e4902c702fb10d72fcd92d7d2844f67")]
 [assembly: System.Reflection.AssemblyProductAttribute("BSPOS.API.Endpoint.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BSPOS.API.Endpoint.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

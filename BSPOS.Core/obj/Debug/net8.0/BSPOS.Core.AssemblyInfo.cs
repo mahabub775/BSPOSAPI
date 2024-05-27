@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BSPOS.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+842f54a05faa62499568ca8cfdd66fee005315b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+117ebfc76e4902c702fb10d72fcd92d7d2844f67")]
 [assembly: System.Reflection.AssemblyProductAttribute("BSPOS.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BSPOS.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

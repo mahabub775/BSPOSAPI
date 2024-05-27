@@ -11,5 +11,7 @@ public class ProductModel : AuditModel
 	[MaxLength(150, ErrorMessage = "Maximum length of 'Name' is 150 characters.")]
 	public string Name { get; set; }
 
+	public double Price { get; set; }
+
 	
 }
