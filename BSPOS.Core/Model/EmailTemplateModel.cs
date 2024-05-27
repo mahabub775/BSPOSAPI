@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SMS.Core.Model;
+namespace BSPOS.Core.Model;
 
 public class EmailTemplateModel : AuditModel
 {

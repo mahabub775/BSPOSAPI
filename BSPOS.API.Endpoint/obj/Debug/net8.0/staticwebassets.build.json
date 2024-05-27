@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "nQc3nl9O8U96owoHZ0JFQlCdLfu+DJEAP8fKQm1S14A=",
-  "Source": "SMS.API.Endpoint",
-  "BasePath": "_content/SMS.API.Endpoint",
+  "Hash": "h7IdOHAAmbo2bQCeRH92ZH6wTarpyqH9knQsTdzbA1M=",
+  "Source": "BSPOS.API.Endpoint",
+  "BasePath": "_content/BSPOS.API.Endpoint",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

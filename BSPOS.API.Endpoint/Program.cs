@@ -4,7 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using System;
 
-namespace SMS.API.Endpoint;
+namespace BSPOS.API.Endpoint;
 
 public class Program
 {

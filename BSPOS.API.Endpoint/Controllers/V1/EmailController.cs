@@ -2,13 +2,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using SMS.API.Endpoint.Resources;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Model;
+using BSPOS.API.Endpoint.Resources;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Model;
 using System;
 using System.Threading.Tasks;
 
-namespace SMS.API.Endpoint.Controllers.V1;
+namespace BSPOS.API.Endpoint.Controllers.V1;
 
 [ApiVersion("1.0")]
 [Route("v{version:apiVersion}/[controller]")]

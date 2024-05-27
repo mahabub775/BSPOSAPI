@@ -1,0 +1,6 @@
+{
+  "BSPOS.API.Endpoint": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Endpoint",
+  "BSPOS.API.Persistence": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Persistence",
+  "BSPOS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.Core",
+  "BSPOS.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.Infrastructure"
+}

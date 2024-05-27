@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Model;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Model;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace SMS.Infrastructure;
+namespace BSPOS.Infrastructure;
 
 public class SecurityHelper : ISecurityHelper
 {

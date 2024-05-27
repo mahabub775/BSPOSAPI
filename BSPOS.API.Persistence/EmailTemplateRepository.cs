@@ -1,11 +1,11 @@
 using Dapper;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
-using SMS.Core.Contract.Persistence;
-using SMS.Core.Model;
+using BSPOS.Core.Contract.Persistence;
+using BSPOS.Core.Model;
 using System.Data;
 
-namespace SMS.API.Persistence;
+namespace BSPOS.API.Persistence;
 
 public class EmailTemplateRepository : IEmailTemplateRepository
 {

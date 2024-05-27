@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.API.Endpoint", "SMS.API.Endpoint\SMS.API.Endpoint.csproj", "{CD5F6E3F-E005-415F-A396-A23BEAD0BD43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSPOS.API.Endpoint", "BSPOS.API.Endpoint\BSPOS.API.Endpoint.csproj", "{CD5F6E3F-E005-415F-A396-A23BEAD0BD43}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Infrastructure", "SMS.Infrastructure\SMS.Infrastructure.csproj", "{6637B29F-5EB3-4F74-8D17-61100C02232C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSPOS.Infrastructure", "BSPOS.Infrastructure\BSPOS.Infrastructure.csproj", "{6637B29F-5EB3-4F74-8D17-61100C02232C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0CC72A24-985A-49DA-8757-FC2DF398E21B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.API.Persistence", "SMS.API.Persistence\SMS.API.Persistence.csproj", "{C1D7C8DE-733F-486B-A4E2-6260D5B96B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSPOS.API.Persistence", "BSPOS.API.Persistence\BSPOS.API.Persistence.csproj", "{C1D7C8DE-733F-486B-A4E2-6260D5B96B40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{239D92F9-BF35-43B8-933E-04188DE4583E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.Core", "SMS.Core\SMS.Core.csproj", "{53379326-0199-4D54-BCFC-0372F610D8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSPOS.Core", "BSPOS.Core\BSPOS.Core.csproj", "{53379326-0199-4D54-BCFC-0372F610D8AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5E4FE235-3971-4F9A-8854-01369D993155}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS.API.Endpoint.Tests", "SMS.API.Endpoint.Tests\SMS.API.Endpoint.Tests.csproj", "{642B1CFD-EF1C-4E3F-AD9D-6CB4A5CA43FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSPOS.API.Endpoint.Tests", "BSPOS.API.Endpoint.Tests\BSPOS.API.Endpoint.Tests.csproj", "{642B1CFD-EF1C-4E3F-AD9D-6CB4A5CA43FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD4F78DA-3436-497E-AB97-B5E8FCE5CB09}"
 	ProjectSection(SolutionItems) = preProject

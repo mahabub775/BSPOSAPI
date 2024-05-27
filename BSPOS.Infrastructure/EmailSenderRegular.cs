@@ -13,12 +13,12 @@ _ = Task.Run(async () => { await _emailSender.SendEmail(
 
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Model;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Model;
 using System.Net;
 using System.Net.Mail;
 
-namespace SMS.Infrastructure;
+namespace BSPOS.Infrastructure;
 
 public class EmailSenderRegular : IEmailSender
 {

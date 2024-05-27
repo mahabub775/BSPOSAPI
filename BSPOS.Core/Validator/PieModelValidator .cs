@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using SMS.Core.Model;
+using BSPOS.Core.Model;
 
-namespace SMS.Core.Validator;
+namespace BSPOS.Core.Validator;
 
 public class PieModelValidator : AbstractValidator<PieModel>
 {

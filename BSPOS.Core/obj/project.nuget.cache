@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ljmAhzmCXZYCD3oRZoewhqxvL4/tbGVq13mTnplHUkyvd+mXBYZpmOX31YrV5Z/gCV81ww0d5IQ7VH09CULKQ==",
+  "dgSpecHash": "+luujO54k+NWXKfUOShw1vA2ICNZv9RlVFk6c2yrsdLZJNw2wJkinm7sqON9MZQrqqoF5AOSDNEJWt7jpdennQ==",
   "success": true,
-  "projectFilePath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.Core\\SMS.Core.csproj",
+  "projectFilePath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.Core\\BSPOS.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mahbub-PC\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
   ],

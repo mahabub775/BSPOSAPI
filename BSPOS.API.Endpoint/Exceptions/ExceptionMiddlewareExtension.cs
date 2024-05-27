@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http.Features;
 using System.Net;
 using System.Text.Json;
 
-namespace SMS.API.Endpoint.Exceptions;
+namespace BSPOS.API.Endpoint.Exceptions;
 
 public static class ExceptionMiddlewareExtension
 {

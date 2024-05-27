@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xX+HTPyBI0+y5Xpyq+n6d59PBvJbr0cyQT5n21dlEdUXDhYGm+WEdqDmvhlBtIRQXBuOgGPQrB2pN95KlOcLXg==",
+  "dgSpecHash": "6M1eA06xRId966J/aTb/ex1lBKMdXsXQqmGG4xnb4jPPb8i4mTsvtN8UWzNernR9Zvj9aCyIqpMwW2bMl77lBg==",
   "success": true,
-  "projectFilePath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.Infrastructure\\SMS.Infrastructure.csproj",
+  "projectFilePath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.Infrastructure\\BSPOS.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mahbub-PC\\.nuget\\packages\\csvhelper\\31.0.3\\csvhelper.31.0.3.nupkg.sha512",
     "C:\\Users\\Mahbub-PC\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",

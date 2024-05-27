@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SMS.API.Endpoint.Resources;
+using BSPOS.API.Endpoint.Resources;
 using System;
 using System.Threading.Tasks;
 
-namespace SMS.API.Endpoint.Controllers.V1;
+namespace BSPOS.API.Endpoint.Controllers.V1;
 
 public partial class ApplicationLogController
 {

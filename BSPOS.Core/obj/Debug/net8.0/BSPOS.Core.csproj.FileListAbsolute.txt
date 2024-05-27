@@ -1,0 +1,13 @@
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\bin\Debug\net8.0\BSPOS.Core.deps.json
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\bin\Debug\net8.0\BSPOS.Core.dll
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\bin\Debug\net8.0\BSPOS.Core.pdb
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.csproj.AssemblyReference.cache
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.AssemblyInfoInputs.cache
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.AssemblyInfo.cs
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.csproj.CoreCompileInputs.cache
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.sourcelink.json
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.dll
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\refint\BSPOS.Core.dll
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\BSPOS.Core.pdb
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.Core\obj\Debug\net8.0\ref\BSPOS.Core.dll

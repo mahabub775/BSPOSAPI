@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SMS.API.Endpoint.Controllers;
+namespace BSPOS.API.Endpoint.Controllers;
 
 [Route("api/v{version:apiVersion}/[controller]")]
 [ApiController]

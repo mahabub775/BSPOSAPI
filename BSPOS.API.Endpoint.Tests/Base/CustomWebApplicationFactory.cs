@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using System.Net.Http;
 
-namespace SMS.API.Endpoint.Tests.Base;
+namespace BSPOS.API.Endpoint.Tests.Base;
 
 public class CustomWebApplicationFactory : WebApplicationFactory<Startup>
 {

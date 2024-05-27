@@ -1,6 +1,6 @@
-﻿using SMS.Core.Model;
+﻿using BSPOS.Core.Model;
 
-namespace SMS.Core.Contract.Infrastructure;
+namespace BSPOS.Core.Contract.Infrastructure;
 
 public interface ISecurityHelper
 {

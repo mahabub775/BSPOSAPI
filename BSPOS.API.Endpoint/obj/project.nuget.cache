@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zWMr3r7JVSBq2MlCrzlnijU7q+LQzbYO7IinHUwemTBJMIulyG/yZGuoFb3uP6aQPUoldS76xngIb50D3Byyfw==",
+  "dgSpecHash": "J/puvItbDSaI+VaqOFgLkVhPDn6Dl7OqbWR2LV4DnUAjGtvkK/YYtgcghPUgBXFYT5s5eev5GPGVSBq0S6L4AQ==",
   "success": true,
-  "projectFilePath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.API.Endpoint\\SMS.API.Endpoint.csproj",
+  "projectFilePath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Endpoint\\BSPOS.API.Endpoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mahbub-PC\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Mahbub-PC\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

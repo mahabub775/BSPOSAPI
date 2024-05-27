@@ -1,10 +1,10 @@
 ﻿using Dapper;
 using Microsoft.AspNetCore.Identity;
-using SMS.API.Persistence.Identity;
-using SMS.Core.Contract.Persistence;
-using SMS.Core.Model;
+using BSPOS.API.Persistence.Identity;
+using BSPOS.Core.Contract.Persistence;
+using BSPOS.Core.Model;
 
-namespace SMS.API.Persistence;
+namespace BSPOS.API.Persistence;
 
 public class AuthRepository : IAuthRepository
 {

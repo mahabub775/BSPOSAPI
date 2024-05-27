@@ -1,6 +1,6 @@
-using SMS.Core.Model;
+using BSPOS.Core.Model;
 
-namespace SMS.Core.Contract.Persistence;
+namespace BSPOS.Core.Contract.Persistence;
 
 public interface IEmailTemplateRepository
 {

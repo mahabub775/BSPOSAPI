@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace SMS.API.Persistence.Identity;
+namespace BSPOS.API.Persistence.Identity;
 
 public class MembershipDbContext : IdentityDbContext<ApplicationUser>
 {

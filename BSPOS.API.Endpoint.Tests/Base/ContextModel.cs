@@ -1,4 +1,4 @@
-﻿namespace SMS.API.Endpoint.Tests.Base;
+﻿namespace BSPOS.API.Endpoint.Tests.Base;
 
 public class ContextModel
 {

@@ -1,4 +1,4 @@
-﻿namespace SMS.Core.Contract.Persistence;
+﻿namespace BSPOS.Core.Contract.Persistence;
 
 public interface IDataAccessHelper
 {

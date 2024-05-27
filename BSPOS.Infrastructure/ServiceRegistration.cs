@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Model;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Model;
 
-namespace SMS.Infrastructure;
+namespace BSPOS.Infrastructure;
 
 public static class ServiceRegistration
 {

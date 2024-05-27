@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KLYtf1nTf2CYcCFMv2WBw5CTdbOqjsoOGcx7Ms2414sSjRf2/NQwJwSQ+GfNW/8dM/k6ySzTnK44pUj35/wX4A==",
+  "dgSpecHash": "m8xizoHEGnSFyBh8MHRs4aR8Aj4UrC8fXElTAzKTCklNwujJ8pxRoZ0P+r/bqmDWZFoRC8GuGPGNKyxKwW4YtA==",
   "success": true,
-  "projectFilePath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.API.Persistence\\SMS.API.Persistence.csproj",
+  "projectFilePath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Persistence\\BSPOS.API.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mahbub-PC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Mahbub-PC\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

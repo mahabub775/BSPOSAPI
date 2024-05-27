@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace SMS.Infrastructure;
+namespace BSPOS.Infrastructure;
 
 public class Utility
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace SMS.API.Persistence.Identity;
+namespace BSPOS.API.Persistence.Identity;
 
 public class ApplicationUser : IdentityUser
 {

@@ -1,12 +1,12 @@
-﻿using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Model;
+﻿using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Model;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace SMS.API.Endpoint.Tests.Base;
+namespace BSPOS.API.Endpoint.Tests.Base;
 
 public class BaseService
 {

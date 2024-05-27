@@ -1,4 +1,4 @@
-﻿namespace SMS.Core.Constant;
+﻿namespace BSPOS.Core.Constant;
 
 public static class Constants
 {

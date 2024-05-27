@@ -3,15 +3,15 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using SMS.API.Persistence.Identity;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Contract.Persistence;
-using SMS.Core.Model;
-using SMS.Infrastructure;
+using BSPOS.API.Persistence.Identity;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Contract.Persistence;
+using BSPOS.Core.Model;
+using BSPOS.Infrastructure;
 using System.Text;
 using System.Text.Encodings.Web;
 
-namespace SMS.API.Persistence;
+namespace BSPOS.API.Persistence;
 
 public class MobileAuthRepository : IMobileAuthRepository
 {

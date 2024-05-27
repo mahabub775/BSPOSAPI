@@ -1,4 +1,4 @@
-﻿namespace SMS.Core.Model;
+﻿namespace BSPOS.Core.Model;
 
 public class ExportFileModel
 {

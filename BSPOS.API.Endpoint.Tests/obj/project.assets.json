@@ -2760,16 +2760,16 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "SMS.API.Endpoint/1.0.0": {
+      "BSPOS.API.Endpoint/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "BSPOS.API.Persistence": "1.0.0",
+          "BSPOS.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.AspNetCore.Mvc.Versioning": "5.1.0",
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.1.0",
           "Microsoft.IdentityModel.Tokens": "7.5.1",
-          "SMS.API.Persistence": "1.0.0",
-          "SMS.Infrastructure": "1.0.0",
           "Serilog.AspNetCore": "8.0.1",
           "Serilog.Enrichers.Process": "2.0.2",
           "Serilog.Enrichers.Thread": "3.1.0",
@@ -2780,53 +2780,54 @@
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "compile": {
-          "bin/placeholder/SMS.API.Endpoint.dll": {}
+          "bin/placeholder/BSPOS.API.Endpoint.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMS.API.Endpoint.dll": {}
+          "bin/placeholder/BSPOS.API.Endpoint.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
       },
-      "SMS.API.Persistence/1.0.0": {
+      "BSPOS.API.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "BSPOS.Core": "1.0.0",
+          "BSPOS.Infrastructure": "1.0.0",
           "Dapper": "2.1.35",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.4",
           "Microsoft.AspNetCore.Identity.UI": "8.0.4",
           "Microsoft.Data.SqlClient": "5.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.Extensions.Caching.Memory": "8.0.0",
-          "Microsoft.Extensions.Configuration": "8.0.0",
-          "SMS.Core": "1.0.0",
-          "SMS.Infrastructure": "1.0.0"
+          "Microsoft.Extensions.Configuration": "8.0.0"
         },
         "compile": {
-          "bin/placeholder/SMS.API.Persistence.dll": {}
+          "bin/placeholder/BSPOS.API.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMS.API.Persistence.dll": {}
+          "bin/placeholder/BSPOS.API.Persistence.dll": {}
         }
       },
-      "SMS.Core/1.0.0": {
+      "BSPOS.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FluentValidation": "11.9.0"
         },
         "compile": {
-          "bin/placeholder/SMS.Core.dll": {}
+          "bin/placeholder/BSPOS.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMS.Core.dll": {}
+          "bin/placeholder/BSPOS.Core.dll": {}
         }
       },
-      "SMS.Infrastructure/1.0.0": {
+      "BSPOS.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "BSPOS.Core": "1.0.0",
           "CsvHelper": "31.0.3",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -2835,15 +2836,14 @@
           "Microsoft.Extensions.Logging.Abstractions": "8.0.1",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
           "Polly": "8.3.1",
-          "SMS.Core": "1.0.0",
           "SendGrid": "9.29.3",
           "System.IdentityModel.Tokens.Jwt": "7.5.1"
         },
         "compile": {
-          "bin/placeholder/SMS.Infrastructure.dll": {}
+          "bin/placeholder/BSPOS.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMS.Infrastructure.dll": {}
+          "bin/placeholder/BSPOS.Infrastructure.dll": {}
         }
       }
     }
@@ -7176,32 +7176,32 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "SMS.API.Endpoint/1.0.0": {
+    "BSPOS.API.Endpoint/1.0.0": {
       "type": "project",
-      "path": "../SMS.API.Endpoint/SMS.API.Endpoint.csproj",
-      "msbuildProject": "../SMS.API.Endpoint/SMS.API.Endpoint.csproj"
+      "path": "../BSPOS.API.Endpoint/BSPOS.API.Endpoint.csproj",
+      "msbuildProject": "../BSPOS.API.Endpoint/BSPOS.API.Endpoint.csproj"
     },
-    "SMS.API.Persistence/1.0.0": {
+    "BSPOS.API.Persistence/1.0.0": {
       "type": "project",
-      "path": "../SMS.API.Persistence/SMS.API.Persistence.csproj",
-      "msbuildProject": "../SMS.API.Persistence/SMS.API.Persistence.csproj"
+      "path": "../BSPOS.API.Persistence/BSPOS.API.Persistence.csproj",
+      "msbuildProject": "../BSPOS.API.Persistence/BSPOS.API.Persistence.csproj"
     },
-    "SMS.Core/1.0.0": {
+    "BSPOS.Core/1.0.0": {
       "type": "project",
-      "path": "../SMS.Core/SMS.Core.csproj",
-      "msbuildProject": "../SMS.Core/SMS.Core.csproj"
+      "path": "../BSPOS.Core/BSPOS.Core.csproj",
+      "msbuildProject": "../BSPOS.Core/BSPOS.Core.csproj"
     },
-    "SMS.Infrastructure/1.0.0": {
+    "BSPOS.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../SMS.Infrastructure/SMS.Infrastructure.csproj",
-      "msbuildProject": "../SMS.Infrastructure/SMS.Infrastructure.csproj"
+      "path": "../BSPOS.Infrastructure/BSPOS.Infrastructure.csproj",
+      "msbuildProject": "../BSPOS.Infrastructure/BSPOS.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BSPOS.API.Endpoint >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Testing >= 8.0.4",
       "Microsoft.NET.Test.Sdk >= 17.9.0",
-      "SMS.API.Endpoint >= 1.0.0",
       "Shouldly >= 4.2.1",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.7.0",
@@ -7214,11 +7214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.API.Endpoint.Tests\\SMS.API.Endpoint.Tests.csproj",
-      "projectName": "SMS.API.Endpoint.Tests",
-      "projectPath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.API.Endpoint.Tests\\SMS.API.Endpoint.Tests.csproj",
+      "projectUniqueName": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Endpoint.Tests\\BSPOS.API.Endpoint.Tests.csproj",
+      "projectName": "BSPOS.API.Endpoint.Tests",
+      "projectPath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Endpoint.Tests\\BSPOS.API.Endpoint.Tests.csproj",
       "packagesPath": "C:\\Users\\Mahbub-PC\\.nuget\\packages\\",
-      "outputPath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.API.Endpoint.Tests\\obj\\",
+      "outputPath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Endpoint.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mahbub-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7235,8 +7235,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.API.Endpoint\\SMS.API.Endpoint.csproj": {
-              "projectPath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.API.Endpoint\\SMS.API.Endpoint.csproj"
+            "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Endpoint\\BSPOS.API.Endpoint.csproj": {
+              "projectPath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.API.Endpoint\\BSPOS.API.Endpoint.csproj"
             }
           }
         }

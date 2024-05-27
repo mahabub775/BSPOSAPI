@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BSPOS.API.Endpoint.props" />
+</Project>

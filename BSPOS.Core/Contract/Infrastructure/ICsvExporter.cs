@@ -1,4 +1,4 @@
-﻿namespace SMS.Core.Contract.Infrastructure;
+﻿namespace BSPOS.Core.Contract.Infrastructure;
 
 public interface ICsvExporter
 {

@@ -1,8 +1,8 @@
 ﻿using CsvHelper;
-using SMS.Core.Contract.Infrastructure;
+using BSPOS.Core.Contract.Infrastructure;
 using System.Globalization;
 
-namespace SMS.Infrastructure;
+namespace BSPOS.Infrastructure;
 
 public class CsvExporter : ICsvExporter
 {

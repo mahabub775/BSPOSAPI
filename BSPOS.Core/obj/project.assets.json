@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.Core\\SMS.Core.csproj",
-      "projectName": "SMS.Core",
-      "projectPath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.Core\\SMS.Core.csproj",
+      "projectUniqueName": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.Core\\BSPOS.Core.csproj",
+      "projectName": "BSPOS.Core",
+      "projectPath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.Core\\BSPOS.Core.csproj",
       "packagesPath": "C:\\Users\\Mahbub-PC\\.nuget\\packages\\",
-      "outputPath": "F:\\SkillMgt\\SMS\\SMSAPI\\SMS.Core\\obj\\",
+      "outputPath": "E:\\BinarySoft_POS\\BS_POS\\BSPOSAPI\\BSPOS.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mahbub-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

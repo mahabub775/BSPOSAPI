@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "SMS.API.Endpoint": {
+    "BSPOS.API.Endpoint": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

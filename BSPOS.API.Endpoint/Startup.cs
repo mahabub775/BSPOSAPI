@@ -9,19 +9,19 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using SMS.API.Endpoint.Exceptions;
-using SMS.API.Persistence;
-using SMS.API.Persistence.Identity;
-using SMS.Core.Constant;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Contract.Persistence;
-using SMS.Infrastructure;
+using BSPOS.API.Endpoint.Exceptions;
+using BSPOS.API.Persistence;
+using BSPOS.API.Persistence.Identity;
+using BSPOS.Core.Constant;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Contract.Persistence;
+using BSPOS.Infrastructure;
 using System;
 using System.Linq;
 using System.Text;
 using System.Threading.RateLimiting;
 
-namespace SMS.API.Endpoint;
+namespace BSPOS.API.Endpoint;
 
 public class Startup
 {
@@ -36,7 +36,7 @@ public class Startup
 	public void ConfigureServices(IServiceCollection services)
 	{
 		services.AddInfrastructureServices(Configuration);
-		services.AddHttpClient("SMSAPI", c => { c.BaseAddress = new Uri(Configuration.GetValue<string>("SMSSettings:SMSBaseAPIAddress")); });
+		services.AddHttpClient("BSPOSAPI", c => { c.BaseAddress = new Uri(Configuration.GetValue<string>("SMSSettings:SMSBaseAPIAddress")); });
 
 		services.AddControllers();
 		services.AddMemoryCache();
@@ -58,11 +58,11 @@ public class Startup
 
 		services.AddSwaggerGen(options =>
 		{
-			var title = "SMS.API.Endpoint";
+			var title = "BSPOS.API.Endpoint";
 			var description = "This is a API project that demonstrates Skill Management System development.";
 			var terms = new Uri("https://localhost/terms");
 			var license = new OpenApiLicense { Name = "This is my full license information or a link to it." };
-			var contact = new OpenApiContact { Name = "SMS Helpdesk", Email = "help@sms.com", Url = new Uri("https://sms.com") };
+			var contact = new OpenApiContact { Name = "SMS Helpdesk", Email = "help@BSPOS.com", Url = new Uri("https://BSPOS.com") };
 
 			options.SwaggerDoc("v1", new OpenApiInfo
 			{
@@ -129,10 +129,7 @@ public class Startup
 		services.AddAuthorization(options =>
 		{
 			options.AddPolicy(Constants.SystemAdmin, policy => { policy.RequireClaim("UserRole", "SystemAdmin"); });
-			options.AddPolicy(Constants.Brigade, policy => { policy.RequireClaim("UserRole", "Brigade"); });
-			options.AddPolicy(Constants.Unit, policy => { policy.RequireClaim("UserRole", "Unit"); });
-			options.AddPolicy(Constants.Company, policy => { policy.RequireClaim("UserRole", "Company"); });
-			options.AddPolicy(Constants.Platoon, policy => { policy.RequireClaim("UserRole", "Platoon"); });
+			
 			options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
 		});
 
@@ -173,41 +170,7 @@ public class Startup
 		services.AddScoped<IPieRepository, PieRepository>();
 		services.AddScoped<IMobileAuthRepository, MobileAuthRepository>();
 		services.AddScoped<IAuthRepository, AuthRepository>();
-		services.AddScoped<IBrigadeRepository, BrigadeRepository>();
-		services.AddScoped<ICertificateRepository, CertificateRepository>();
-		services.AddScoped<ICertificateAuthorityRepository, CertificateAuthorityRepository>();
-		services.AddScoped<ICompanyRepository, CompanyRepository>();
-		services.AddScoped<ICourseRepository, CourseRepository>();
-		services.AddScoped<IDegreeRepository, DegreeRepository>();
-		services.AddScoped<IDurationRepository, DurationRepository>();
-		services.AddScoped<IPlatoonRepository, PlatoonRepository>();
-		services.AddScoped<IQualificationRepository, QualificationRepository>();
-		services.AddScoped<IRankRepository, RankRepository>();
-		services.AddScoped<ITradeRepository, TradeRepository>();
-		services.AddScoped<ITrainingRepository, TrainingRepository>();
-		services.AddScoped<IUnitRepository, UnitRepository>();
-		services.AddScoped<ICountryRepository, CountryRepository>();
-		services.AddScoped<IBAASectionRepository, BAASectionRepository>();
-		services.AddScoped<IBIAnnualRepository, BIAnnualRepository>();
-		services.AddScoped<IDeshboardRepository, DeshboardRepository>();
-
-		services.AddScoped<IMilitaryInstitutionRepository, MilitaryInstitutionRepository>();
-		services.AddScoped<ICivilInstitutionRepository, CivilInstitutionRepository>();
-		services.AddScoped<IApplicantRepository, ApplicantRepository>();
-		services.AddScoped<IApplicantGPTRepository, ApplicantGPTRepository>();
-		services.AddScoped<IApplicantAddlQualificationRepository, ApplicantAddlQualificationRepository>();
-		services.AddScoped<IApplicantCadreRepository, ApplicantCadreRepository>();
-		services.AddScoped<IApplicantCertificationRepository, ApplicantCertificationRepository>();
-		services.AddScoped<IApplicantCivilEducationRepository, ApplicantCivilEducationRepository>();
-		services.AddScoped<IApplicantMilitaryTrainingRepository, ApplicantMilitaryTrainingRepository>();
-
-		services.AddScoped<IApplicantIPFTRepository, ApplicantIPFTRepository>();
-		services.AddScoped<IApplicantRETRepository, ApplicantRETRepository>();
-		services.AddScoped<IApplicantAssultCourseRepository, ApplicantAssultCourseRepository>();
-		services.AddScoped<IApplicantCompetitionRepository, ApplicantCompetitionRepository>();
-		services.AddScoped<IApplicantQuizCompetitionRepository, ApplicantQuizCompetitionRepository>();
-		services.AddScoped<IApplicantDisciplineRepository, ApplicantDisciplineRepository>();
-		services.AddScoped<IApplicantRoleMappingRepository, ApplicantRoleMappingRepository>();
+		
 	}
 
 	// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -219,15 +182,15 @@ public class Startup
 		//// Local
 		app.UseSwaggerUI(options =>
 		{
-			options.SwaggerEndpoint("/swagger/v1/swagger.json", "SMS.API.Endpoint v1");
-			options.SwaggerEndpoint("/swagger/v2/swagger.json", "SMS.API.Endpoint v2");
+			options.SwaggerEndpoint("/swagger/v1/swagger.json", "BSPOS.API.Endpoint v1");
+			options.SwaggerEndpoint("/swagger/v2/swagger.json", "BSPOS.API.Endpoint v2");
 		});
 
 		//Stagging
 		//app.UseSwaggerUI(options =>
 		//{
-		//	options.SwaggerEndpoint("/demo/SMS/api/swagger/v1/swagger.json", "SMS.API.Endpoint v1");
-		//	options.SwaggerEndpoint("/demo/SMS/api/swagger/v2/swagger.json", "SMS.API.Endpoint v2");
+		//	options.SwaggerEndpoint("/demo/BSPOS/api/swagger/v1/swagger.json", "BSPOS.API.Endpoint v1");
+		//	options.SwaggerEndpoint("/demo/BSPOS/api/swagger/v2/swagger.json", "BSPOS.API.Endpoint v2");
 		//});
 
 		app.UseHsts();

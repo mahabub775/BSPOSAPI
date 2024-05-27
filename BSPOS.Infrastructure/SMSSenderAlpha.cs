@@ -15,13 +15,13 @@ _ = Task.Run(async () => { await _smsSender.SendSMS(
 
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Model;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Model;
 using Polly;
 using System.Net;
 using System.Net.Http.Headers;
 
-namespace SMS.Infrastructure;
+namespace BSPOS.Infrastructure;
 
 public class SMSSenderAlpha : ISMSSender
 {

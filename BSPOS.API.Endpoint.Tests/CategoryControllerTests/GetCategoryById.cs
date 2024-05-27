@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using SMS.API.Endpoint.Resources;
-using SMS.API.Endpoint.Tests.Base;
-using SMS.Core.Contract.Infrastructure;
-using SMS.Core.Model;
+using BSPOS.API.Endpoint.Resources;
+using BSPOS.API.Endpoint.Tests.Base;
+using BSPOS.Core.Contract.Infrastructure;
+using BSPOS.Core.Model;
 using Shouldly;
 using System;
 using System.Net;
@@ -11,7 +11,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace SMS.API.Endpoint.Tests.CategoryControllerTests;
+namespace BSPOS.API.Endpoint.Tests.CategoryControllerTests;
 
 public class GetCategoryById_Should : IClassFixture<CustomWebApplicationFactory>
 {
