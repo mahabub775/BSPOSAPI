@@ -1,8 +1,0 @@
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_BSPOS.API.Endpoint.Tests
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\obj\Debug\net8.0\BSPOS.API.Endpoint.Tests.csproj.AssemblyReference.cache
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\obj\Debug\net8.0\BSPOS.API.Endpoint.Tests.GeneratedMSBuildEditorConfig.editorconfig
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\obj\Debug\net8.0\BSPOS.API.Endpoint.Tests.AssemblyInfoInputs.cache
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\obj\Debug\net8.0\BSPOS.API.Endpoint.Tests.AssemblyInfo.cs
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\obj\Debug\net8.0\BSPOS.API.Endpoint.Tests.csproj.CoreCompileInputs.cache
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Endpoint.Tests\obj\Debug\net8.0\BSPOS.API.Endpoint.Tests.sourcelink.json

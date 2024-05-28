@@ -41,7 +41,9 @@ public class Startup
 		services.AddControllers();
 		services.AddMemoryCache();
 
-		services.AddCors(options => { options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials().Build()); });
+		//services.AddCors(options => { options.AddPolicy("CorsPolicy", 
+		//	builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials().Build());
+		//});
 
 		services.AddApiVersioning(options =>
 		{
@@ -104,6 +106,7 @@ public class Startup
 		});
 
 		services.AddDbContext<MembershipDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MembershipDatabase")));
+		
 
 		services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 		{
@@ -145,8 +148,11 @@ public class Startup
 				ValidateAudience = true,
 				ValidateLifetime = true,
 				ValidateIssuerSigningKey = true,
-				ValidIssuer = Configuration["JWT:Issuer"],
-				ValidAudience = Configuration["JWT:Audience"],
+				//ValidIssuer = Configuration["JWT:Issuer"],
+				//ValidAudience = Configuration["JWT:Audience"],
+				ValidAudience = "http://localhost:4200",//configuration["JWT:ValidAudience"],
+				ValidIssuer = "http://localhost:4200",
+
 				IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:SecretKey"]))
 			};
 		});
@@ -170,6 +176,7 @@ public class Startup
 		services.AddScoped<IPieRepository, PieRepository>();
 		services.AddScoped<IMobileAuthRepository, MobileAuthRepository>();
 		services.AddScoped<IAuthRepository, AuthRepository>();
+		services.AddScoped<IdentityUser>();
 		
 	}
 
@@ -193,6 +200,13 @@ public class Startup
 		//	options.SwaggerEndpoint("/demo/BSPOS/api/swagger/v2/swagger.json", "BSPOS.API.Endpoint v2");
 		//});
 
+		#region for CORS Policy
+		app.UseCors(options =>
+					  options.WithOrigins("http://localhost:4200", "http://pos.binarysoftbd.com")  //Url can change according your angular app.
+					  .AllowAnyMethod()
+					  .AllowAnyHeader());
+		#endregion
+
 		app.UseHsts();
 
 		app.UseHttpsRedirection();
@@ -206,5 +220,6 @@ public class Startup
 		{
 			endpoints.MapControllers();
 		});
+		
 	}
 }

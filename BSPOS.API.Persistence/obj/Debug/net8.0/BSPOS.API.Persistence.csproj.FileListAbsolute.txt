@@ -1,9 +1,3 @@
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.csproj.AssemblyReference.cache
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.AssemblyInfoInputs.cache
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.AssemblyInfo.cs
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.csproj.CoreCompileInputs.cache
-E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.sourcelink.json
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\bin\Debug\net8.0\BSPOS.API.Persistence.deps.json
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\bin\Debug\net8.0\BSPOS.API.Persistence.dll
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\bin\Debug\net8.0\BSPOS.API.Persistence.pdb
@@ -11,6 +5,12 @@ E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\bin\Debug\net8.0\BSPOS.C
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\bin\Debug\net8.0\BSPOS.Infrastructure.dll
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\bin\Debug\net8.0\BSPOS.Core.pdb
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\bin\Debug\net8.0\BSPOS.Infrastructure.pdb
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.csproj.AssemblyReference.cache
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.AssemblyInfoInputs.cache
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.AssemblyInfo.cs
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.csproj.CoreCompileInputs.cache
+E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.sourcelink.json
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.AP.EF27DE19.Up2Date
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\BSPOS.API.Persistence.dll
 E:\BinarySoft_POS\BS_POS\BSPOSAPI\BSPOS.API.Persistence\obj\Debug\net8.0\refint\BSPOS.API.Persistence.dll
